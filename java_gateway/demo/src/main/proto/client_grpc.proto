@@ -6,7 +6,7 @@ option java_package = "com.example.grpc";
 option java_outer_classname = "MessageServiceProto";
 
 service MessageService {
-  rpc SendMessage (RequestMessage) returns (ResponseMessage);
+  rpc SendMessage(RequestMessage) returns(ResponseMessage);
 }
 
 message RequestMessage {
